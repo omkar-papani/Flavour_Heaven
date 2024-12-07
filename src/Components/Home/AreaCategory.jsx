@@ -12,7 +12,7 @@ function AreaCategory() {
                 <h1 className='text-2xl text-customBrown font-semibold place-self-center mb-2'>
                   Area
                 </h1>
-                <div className='flex flex-wrap justify-center w-fit gap-3 '>
+                <div className='flex flex-wrap md:flex-wrap justify-center w-fit gap-3 '>
                     <div className='flex flex-col border p-6 lg:p-3 xl:p-6 bg-white 2xl:w-80 xl:w-72 lg:w-56 sm:w-64 w-68 rounded-xl card'>
                       <img src="https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg"
                         className='2xl:w-72 2xl:h-72 xl:w-68 xl:h-68 lg:w-56 lg:h-56 sm:w-60 sm:h-60 w-64 h-64 place-self-center'
@@ -51,7 +51,7 @@ function AreaCategory() {
                 <h1 className='text-2xl text-customBrown font-semibold place-self-center mb-2'>
                   Category
                 </h1>
-                <div className='flex flex-wrap justify-center w-fit gap-3'>
+                <div className='flex flex-wrap md:flex-wrap justify-center w-fit gap-3'>
                     <div className='flex flex-col border p-6 lg:p-3 xl:p-6 bg-white 2xl:w-80 xl:w-72 lg:w-56 sm:w-64 w-68 rounded-xl card'>
                       <img src="https://www.themealdb.com/images/media/meals/1550441882.jpg"
                         className='2xl:w-72 2xl:h-72 xl:w-68 xl:h-68 lg:w-56 lg:h-56 sm:w-60 sm:h-60 w-64 h-64 place-self-center'
