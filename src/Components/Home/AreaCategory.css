@@ -1,0 +1,16 @@
+@media (min-width:319px) and (max-width:350px) {
+    .card{
+        width: 140px;
+    }
+    .container{
+        padding: 1px;
+    }
+}
+@media (min-width:350px) and (max-width:424px) {
+    .card{
+        width: 160px;
+    }
+    .container{
+        padding: 5px;
+    }
+}
