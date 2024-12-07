@@ -13,7 +13,7 @@ function Home() {
     <div className='bg-bgColor py-4'>
       <div className='bg-customBrown p-4 font-semibold text-xl text-white'>
         <Marquee>
-             Discover &nbsp;&nbsp;&nbsp;&nbsp; Learn &nbsp;&nbsp;&nbsp;&nbsp; Cook &nbsp;&nbsp;&nbsp;&nbsp;  Savor &nbsp;&nbsp;&nbsp;&nbsp; Repeat!
+             Discover &nbsp;&nbsp;&nbsp; Learn &nbsp;&nbsp;&nbsp; Cook &nbsp;&nbsp;&nbsp;  Savor &nbsp;&nbsp;&nbsp; Repeat! &nbsp;&nbsp;
         </Marquee>
       </div>
     </div>
