@@ -1,9 +1,9 @@
 import React from 'react'
 import Img_Carousel from '../Carousel/Img_Carousel'
 import ContactForm from '../ContactUs/ContactForm'
-import Marquee from 'react-fast-marquee';
-import RandomMeals from './RandomMeals';
-import AreaCategory from './AreaCategory';
+import Marquee from 'react-fast-marquee'
+import RandomMeals from './RandomMeals'
+import AreaCategory from './AreaCategory'
 
 
 function Home() {
