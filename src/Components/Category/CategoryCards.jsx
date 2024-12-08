@@ -14,7 +14,7 @@ function CategoryCards({data}) {
         return(
 
           <Link to='/cr' state={{category:items.strCategory}}>
-            <div key={items.idCategory} className='rounded-lg w-40 bg-white flex flex-col items-center m-3 p-5'>
+            <div key={items.idCategory} className='rounded-lg md:w-40 w-36 bg-white flex flex-col items-center m-3 p-5'>
                 <h1 className='text-customBrown font-semibold text-xl mb-2'>{items.strCategory}</h1>
                 <img src={items.strCategoryThumb} alt="" />
             </div>
