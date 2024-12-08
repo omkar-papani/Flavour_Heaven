@@ -24,7 +24,7 @@ function Category() {
     <>
       <div className='bg-bgColor w-full pt-2'>
           <h1 className='text-3xl font-bold text-customBrown place-self-center mb-5'>Here are the categories</h1>
-          <p className='text-xl font-semibold text-customBrown place-self-center'>Click on the wished category to get all the recipes</p>
+          <p className='sm:text-xl text-lg font-semibold text-customBrown place-self-center'>Click on the wished category to get all the recipes</p>
       </div>
       
         <CategoryCards data={data}/>
