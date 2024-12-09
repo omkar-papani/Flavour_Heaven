@@ -10,6 +10,11 @@ function ContactForm() {
     const sendData = (e) =>{
         e.preventDefault()
         console.log(name, email, message , number)
+        setName('')
+          setEmail('')
+          setMessage('')
+          setMessage('')
+          setNumber('')
 
         const templateParams = {
             from_name: name,
@@ -24,11 +29,7 @@ function ContactForm() {
         () => {
           console.log('SUCCESS!')
           alert('Your message has been sent!')
-          setName('')
-          setEmail('')
-          setMessage('')
-          setMessage('')
-          setNumber('')
+          
         },
         (error) => {
           console.log('FAILED...', error.text)
